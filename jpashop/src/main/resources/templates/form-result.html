@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.w3.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>폼 결과</title>
+</head>
+<body>
+    <h1>제출된 사용자 정보</h1>
+    <p>이름: <span th:text="${submittedUser.name}">Placeholder</span></p>
+    <p>이메일: <span th:text="${submittedUser.email}">Placeholder</span></p>
+</body>
+</html>
