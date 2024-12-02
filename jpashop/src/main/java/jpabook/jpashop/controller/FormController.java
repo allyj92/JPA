@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
-public class FormControlle {
+public class FormController {
     @GetMapping("/form")
     public String formPage(Model model){
         model.addAttribute("user", new User());
